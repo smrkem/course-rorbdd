@@ -1,5 +1,18 @@
 require 'rails_helper'
 
 RSpec.describe Article, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "has a valid factory" do
+    expect(FactoryGirl.build(:article)).to be_valid
+  end
+
+  it "is invalid without a title" do
+    article = FactoryGirl.build(:article, title: "")
+    expect(article).not_to be_valid
+  end
+
+  it "is invalid without a body" do
+    article = FactoryGirl.build(:article, body: "")
+    expect(article).not_to be_valid
+  end
+
 end
