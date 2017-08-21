@@ -1,24 +1,7 @@
-# README
+# Ruby on Rails 5, BDD, Rspec and Capybara | Udemy
+This repo is my course project(s) for the udemy course:  
+https://www.udemy.com/ruby-rails-5-bdd-rspec-capybara/  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The course itself uses cloud9 IDE, and may not use phantomjs, but here I will be developing using Docker and attempt to follow along, getting everything working using phantomjs inside the container.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+:fingers_crossed:  
