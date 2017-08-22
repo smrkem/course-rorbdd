@@ -15,6 +15,7 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'nokogiri', '1.8.0'
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
