@@ -15,4 +15,9 @@ RSpec.describe Article, type: :model do
     expect(article).not_to be_valid
   end
 
+  it "is invalid without a user" do
+    article = FactoryGirl.build(:article, user: nil)
+    expect(article).not_to be_valid
+  end
+
 end
