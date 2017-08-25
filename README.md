@@ -11,3 +11,9 @@ The course also only focuses on feature specs - so I'm making a couple changes i
 - I'm adding model tests along the way to making feature specs pass
 
 I decided not to bother with views or controller tests, since these are covered fairly well in the FTs (Feature / Functional tests).
+
+### Review
+The first part of this course was disappointing. It introduces rspec and feature tests, but fails to include any other kinds of test (unit, controller, helper). Not very TDD. And when the author introduces ActionCable and real-time features - he ignores tests entirely and his changes completely break earlier tests with no way to fix them other than remove the failing tests entirely.
+
+The second part of the course is a separate app, and will be continued in:  
+https://github.com/smrkem/course-rorbdd-workout-app

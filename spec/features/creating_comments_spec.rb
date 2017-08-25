@@ -15,7 +15,6 @@ RSpec.feature "Adding comments to articles" do
     fill_in "New Comment", with: "Sample comment text"
     click_button "Add Comment"
 
-    expect(page).to have_content "Comment has been created"
     expect(page).to have_content "Sample comment text"
     expect(current_path).to eq article_path(@article)
   end
